@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+h1 {
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+li {
+    padding-left: 16px;
+    padding-right: 24px;
+}
+
+#header-logo {
+    font-size: 24px;
+    
+}
+
+#header-links {
+    display: inline-flex;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type:none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #E5E7EB;
+}
