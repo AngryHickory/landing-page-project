@@ -1,8 +1,3 @@
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 header {
     display: flex;
     justify-content: space-around;
@@ -28,7 +23,7 @@ button {
     color: #F9FAF8;
     border: none;
     border-radius: 4px;
-    padding: 5px 20px;
+    padding: 5px 25px;
 }
 
 .bluetop {
@@ -97,6 +92,7 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    padding: 100px;
 }
 
 .container1-header {
@@ -123,4 +119,73 @@ button {
 .container1-image p {
     margin: 10px;
     width: 250px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #E5E7EB;
+    padding: 120px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote2 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-left: 125px;
+    margin-top: -10px;
+
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.container3-box {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #3882F6;
+    background-color: #3882F6;
+    width: 60%;
+}
+
+.container3-boxtext {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    color: #E5E7EB;
+}
+
+.container3-text {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.container3-subtext {
+    margin-top: -10px;
+}
+
+.container3-button {
+    align-self: center;
+    border: 3px solid #E5E7EB;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    
 }
