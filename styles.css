@@ -26,6 +26,15 @@ button {
     padding: 5px 25px;
 }
 
+button:hover {background-color: #5a77a5}
+
+button:active {
+  background-color: #5a77a5;
+  box-shadow: 0 5px #2a3541;
+  transform: translateY(1px);
+
+}
+
 .bluetop {
     background-color: #1F2937; 
 }
@@ -154,8 +163,8 @@ a:hover {
     font-size: 12px;
     font-weight: bold;
     color: #1F2937;
-    padding-left: 125px;
-    margin-top: -10px;
+    margin-left: 70%;
+    margin-top: 100px;
 
 }
 
