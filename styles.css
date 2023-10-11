@@ -44,7 +44,19 @@ button {
     padding: 0px;
     overflow: hidden;
     font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    color:#E5E7EB
+}
+
+a:visited {
+    text-decoration: none;
     color: #E5E7EB;
+}
+a:hover {
+    color: #5a77a5;
 }
 
 .hero {
